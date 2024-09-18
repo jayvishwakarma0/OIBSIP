@@ -9,10 +9,18 @@ body {
     background: linear-gradient(135deg, #141E30, #243B55);
 }
 
+.heading{
+    color: wheat;
+    padding-top: 1.5rem;
+    margin:auto;
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+}
 
 .container{
     width: 100vw;
-    height: 100vh;
+    height: 87vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -105,12 +113,26 @@ body {
 }
 
 @media (max-width:1340px){
+    .heading{
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
     .calculator{
         width: 50vw;
         height: auto;
     }
+    .conatainer{
+        height: 80vh;
+    }
 }
 @media (max-width:1024px){
+    .heading{
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+    .conatainer{
+        height: 70vh;
+    }
     .calculator{
         width: 90vw;
         height: auto;
@@ -121,6 +143,9 @@ body {
       }
 }
 @media (max-width: 470px) {
+    .heading{
+        font-size: 1rem;
+    }
     .calculator{
         height: auto;
         width: 90vw;

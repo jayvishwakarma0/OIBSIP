@@ -245,5 +245,8 @@ h1 {
     .task {
         padding: 10px;
     }
+    .tasks-details h2{
+        padding-left: 1rem;
+    }
 }
 

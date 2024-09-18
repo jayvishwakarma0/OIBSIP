@@ -8,7 +8,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #333;
+    color: #2647bd;
+    flex-direction: column;
 }
 
 /* Container Styling */
@@ -41,7 +42,7 @@ h2 {
 }
 
 .form-group input {
-    width: 100%;
+    width: 95%;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ddd;
@@ -104,10 +105,20 @@ h2 {
     transition: opacity 0.5s ease-in-out;
 }
 
-/* Responsive Design */
+@media  (max-width:480px){
+    body{
+        padding: 1rem;
+    }
+    .container {
+        margin: 1rem;
+        padding: 2rem;
+    }
+}
+
 @media (max-width: 600px) {
     .container {
-        padding: 20px;
+        margin:2rem;
+        padding: 1rem;
     }
 
     h2 {
