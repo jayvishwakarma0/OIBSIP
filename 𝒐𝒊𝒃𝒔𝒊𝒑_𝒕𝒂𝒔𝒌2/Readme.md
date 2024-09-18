@@ -6,11 +6,11 @@ This Tribute Page is a simple web page dedicated to celebrating the life and ach
 
 ## Features
 
-Responsive Design: The page is fully responsive, ensuring it looks great on any device.
-Clean Layout: Well-organized sections such as biography, achievements, and images.
-Simple Navigation: Easy-to-read and navigate, with a focus on clarity and accessibility.
+1. Responsive Design: The page is fully responsive, ensuring it looks great on any device.
+2. Clean Layout: Well-organized sections such as biography, achievements, and images.
+3. Simple Navigation: Easy-to-read and navigate, with a focus on clarity and accessibility.
 
 ## Technologies Used
 
-HTML
-CSS
+1. HTML
+2. CSS

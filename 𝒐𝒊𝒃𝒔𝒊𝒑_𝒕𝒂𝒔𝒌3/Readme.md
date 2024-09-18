@@ -6,14 +6,14 @@ The To-Do App is a task management tool that allows users to create, update, com
 
 ## Features
 
-Add Tasks: Users can input a task title and description to add a task.
-Mark as Complete: Tasks can be marked as complete, automatically moving them to the "Completed Tasks" section.
-Edit Tasks: Existing tasks can be edited with an easy-to-use interface.
-Delete Tasks: Tasks can be removed from the task list.
-Real-Time Rendering: The task lists are dynamically updated in real time as tasks are added, edited, or deleted.
+1. Add Tasks: Users can input a task title and description to add a task.
+2. Mark as Complete: Tasks can be marked as complete, automatically moving them to the "Completed Tasks" section.
+3. Edit Tasks: Existing tasks can be edited with an easy-to-use interface.
+4. Delete Tasks: Tasks can be removed from the task list.
+5. Real-Time Rendering: The task lists are dynamically updated in real time as tasks are added, edited, or deleted.
 
 ## Technologies Used
 
-HTML
-CSS
-JavaScript
+1. HTML
+2. CSS
+3. JavaScript

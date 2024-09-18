@@ -6,13 +6,13 @@ This Calculator Project is a simple, responsive, and fully functional calculator
 
 ## Features
 
-Basic Arithmetic Operations: Supports addition, subtraction, multiplication, and division.
-Clear Functionality: Easily reset the calculator with the clear button.
-Responsive Design: Works on both mobile and desktop screens.
-Real-Time Calculation: Displays results as you input numbers and operations.
+1. Basic Arithmetic Operations: Supports addition, subtraction, multiplication, and division.
+2. Clear Functionality: Easily reset the calculator with the clear button.
+3. Responsive Design: Works on both mobile and desktop screens.
+4. Real-Time Calculation: Displays results as you input numbers and operations.
 
 ## Technologies Used
 
-HTML
-CSS
-JavaScript
+1. HTML
+2. CSS
+3. JavaScript

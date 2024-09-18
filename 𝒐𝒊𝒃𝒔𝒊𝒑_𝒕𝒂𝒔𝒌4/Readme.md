@@ -6,13 +6,13 @@ The Login Authentication System is a basic authentication interface where users 
 
 ## Features
 
-User Registration: New users can register with a username and password.
-Login Authentication: Users can log in using stored credentials.
-Secured Page: After successful login, users are greeted with a personalized message on a secure page.
-Logout Functionality: Users can log out and be redirected back to the login page.
+1. User Registration: New users can register with a username and password.
+2. Login Authentication: Users can log in using stored credentials.
+3. Secured Page: After successful login, users are greeted with a personalized message on a secure page.
+4. Logout Functionality: Users can log out and be redirected back to the login page.
 
 ## Technologies Used
 
-HTML
-CSS
-JavaScript
+1. HTML
+2. CSS
+3. JavaScript
