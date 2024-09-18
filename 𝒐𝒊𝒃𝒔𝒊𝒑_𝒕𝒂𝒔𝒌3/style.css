@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+
+.heading {
+    background: linear-gradient(135deg, #4CAF50, #2196F3); 
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+    width: 90%; 
+    max-width: 1200px; 
+    margin: 1rem auto; 
+    border-radius: 10px;
+
+}
+
+h1 {
+    margin-bottom: 0; 
+    font-size: 28px;
+    font-weight: 600;
+    font-style: italic;
+    padding: 0 1rem; 
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #bfd5e1;
+    max-height: 40vh;
+    width: 25%;
+    gap: 1rem;
+    border-radius: 10px;
+}
+
+.input-group textarea {
+    height: 10rem;
+}
+
+.input-group input, .input-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input-group input:focus, .input-group textarea:focus {
+    border-color: #0077b6;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 119, 182, 0.2);
+}
+
+.input-group button {
+    padding: 10px 15px;
+    background-color: #FF5722; 
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.input-group button:hover {
+    background-color: #E64A19;
+}
+
+.tasks-details {
+    width: 80%;
+    background-color: #bfd5e1;
+    border-radius: 10px;
+}
+
+.tasks-details h2 {
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+.task-list {
+    margin-top: 20px;
+    text-align: left;
+    padding: 1rem 2rem;
+}
+
+.task-list h3 {
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #FFFFFF; 
+    border: 1px solid #E0E0E0; 
+    margin-bottom: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.task.complete {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.task p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.task-actions {
+    display: flex;
+    align-items: center;
+}
+
+.task-actions button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+    color: black;
+    transition: color 0.3s;
+}
+
+.task-actions button:hover {
+    color: #0077b6;
+}
+
+.timestamp {
+    font-size: 12px;
+    color: #666;
+}
+
+.edit-container {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f0f8ff;
+}
+
+.edit-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 8px rgba(0, 119, 182, 0.2);
+}
+
+.edit-container button {
+    background-color: #FF5722;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.edit-container button:hover {
+    background-color: #E64A19;
+}
+
+/* Responsive Layout */
+
+/* For tablets and larger smartphones */
+@media (max-width: 768px) {
+    .heading{
+        width: 85%;
+    }
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .input-group, .tasks-details {
+        width: 90%;
+    }
+
+    .input-group {
+        max-height: none;
+    }
+
+    .task {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .task-actions {
+        justify-content: flex-end;
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .input-group {
+        padding: 1rem;
+    }
+
+    .task p {
+        font-size: 14px;
+    }
+
+    .task-list {
+        padding: 0.5rem 1rem;
+    }
+
+    .task {
+        padding: 10px;
+    }
+}
+
